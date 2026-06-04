@@ -7,7 +7,11 @@ const config: { [key: string]: Knex.Config } = {
       host: process.env.DB_HOST || 'localhost',
       port: parseInt(process.env.DB_PORT || '5432'),
       user: process.env.DB_USER || 'postgres',
+<<<<<<< HEAD
       password: process.env.DB_PASSWORD || '2506',
+=======
+      password: process.env.DB_PASSWORD || '1234',
+>>>>>>> d3c4394f0efa54f27fef31e32e44fbdf73745455
       database: process.env.DB_NAME || 'superheroedb',
     },
     migrations: {
